@@ -17,7 +17,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/A"
+            android:id="@+id/a"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -27,7 +27,7 @@
             app:backgroundTint="@color/first_row" />
 
         <Button
-            android:id="@+id/B"
+            android:id="@+id/b"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -37,7 +37,7 @@
             app:backgroundTint="@color/first_row" />
 
         <Button
-            android:id="@+id/C"
+            android:id="@+id/c"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -47,7 +47,7 @@
             app:backgroundTint="@color/first_row" />
 
         <Button
-            android:id="@+id/D"
+            android:id="@+id/d"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -65,7 +65,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/E"
+            android:id="@+id/e"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -74,7 +74,7 @@
             app:backgroundTint="@color/second_row" />
 
         <Button
-            android:id="@+id/F"
+            android:id="@+id/f"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -83,7 +83,7 @@
             app:backgroundTint="@color/second_row" />
 
         <Button
-            android:id="@+id/G"
+            android:id="@+id/g"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -92,7 +92,7 @@
             app:backgroundTint="@color/second_row" />
 
         <Button
-            android:id="@+id/H"
+            android:id="@+id/h"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -109,7 +109,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/I"
+            android:id="@+id/i"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -118,7 +118,7 @@
             app:backgroundTint="@android:color/holo_orange_dark" />
 
         <Button
-            android:id="@+id/J"
+            android:id="@+id/j"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -127,7 +127,7 @@
             app:backgroundTint="@android:color/holo_orange_dark" />
 
         <Button
-            android:id="@+id/K"
+            android:id="@+id/k"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -136,7 +136,7 @@
             app:backgroundTint="@android:color/holo_orange_dark" />
 
         <Button
-            android:id="@+id/L"
+            android:id="@+id/l"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -153,7 +153,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/M"
+            android:id="@+id/m"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -162,7 +162,7 @@
             app:backgroundTint="@android:color/holo_purple" />
 
         <Button
-            android:id="@+id/N"
+            android:id="@+id/n"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -171,7 +171,7 @@
             app:backgroundTint="@android:color/holo_purple" />
 
         <Button
-            android:id="@+id/O"
+            android:id="@+id/o"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -180,7 +180,7 @@
             app:backgroundTint="@android:color/holo_purple" />
 
         <Button
-            android:id="@+id/P"
+            android:id="@+id/p"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -197,7 +197,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/Q"
+            android:id="@+id/q"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -206,7 +206,7 @@
             app:backgroundTint="@color/teal_200" />
 
         <Button
-            android:id="@+id/R"
+            android:id="@+id/r"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -215,7 +215,7 @@
             app:backgroundTint="@color/teal_200" />
 
         <Button
-            android:id="@+id/S"
+            android:id="@+id/s"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -224,7 +224,7 @@
             app:backgroundTint="@color/teal_200" />
 
         <Button
-            android:id="@+id/T"
+            android:id="@+id/t"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -241,7 +241,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/U"
+            android:id="@+id/u"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -250,7 +250,7 @@
             app:backgroundTint="@android:color/holo_green_light" />
 
         <Button
-            android:id="@+id/V"
+            android:id="@+id/v"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -259,7 +259,7 @@
             app:backgroundTint="@android:color/holo_green_light" />
 
         <Button
-            android:id="@+id/W"
+            android:id="@+id/w"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -268,7 +268,7 @@
             app:backgroundTint="@android:color/holo_green_light" />
 
         <Button
-            android:id="@+id/X"
+            android:id="@+id/x"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -286,7 +286,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/Y"
+            android:id="@+id/y"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -295,7 +295,7 @@
             app:backgroundTint="@color/teal_700" />
 
         <Button
-            android:id="@+id/Z"
+            android:id="@+id/z"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
