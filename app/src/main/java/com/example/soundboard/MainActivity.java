@@ -58,17 +58,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    public void play(View v) {
-        String filename = "";
-        for(File f : fileList){
-            if(f.getName().equals(v.getId())){
-
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View button = findViewById(R.id.b);
+                play(button);
             }
-        }
-        player = MediaPlayer.create(this, R.raw.a);
-        player.start();
+        });
     }
+
+        public void play(View v) {
+            for(File f : fileList){
+                if(f.getName().equals(v.getId())){
+                    player = MediaPlayer.create(this, R.raw.f);
+                    break;
+                }
+            }
+            player.start();
+        }
 
 
 
