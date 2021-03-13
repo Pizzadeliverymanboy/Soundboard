@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -53,28 +54,22 @@ public class MainActivity extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                View button = findViewById(R.id.a);
-                play(button);
-            }
-        });
-    }
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                View button = findViewById(R.id.b);
+                TextView button = findViewById(R.id.a);
                 play(button);
             }
         });
     }
 
-        public void play(View v) {
+
+        public void play(TextView v) {
             for(File f : fileList){
-                if(f.getName().equals(v.getId())){
-                    player = MediaPlayer.create(this, R.raw.f);
+                if(f.getName().equals(v.getText())){
+                    player = MediaPlayer.create(this, Uri.parse(f.getPath()));
                     break;
                 }
             }
             player.start();
+            player.release();
         }
 
 
