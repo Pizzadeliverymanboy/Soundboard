@@ -11,11 +11,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.File;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    File file = new File("/raw/a.wav");
-    String getDirectoryPath = file.getParent();
-    File fileList [] = file.listFiles();
+    File folder = new File("raw");
+    File [] listOfFiles = folder.listFiles();
     MediaPlayer player;
 
     @Override
@@ -49,11 +49,12 @@ public class MainActivity extends AppCompatActivity {
         Button y = findViewById(R.id.y);
         Button z = findViewById(R.id.z);
 
-
-
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                for(File f : listOfFiles){
+                    System.out.println(f);
+                }
                 TextView button = findViewById(R.id.a);
                 play(button);
             }
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         public void play(TextView v) {
-            for(File f : fileList){
+            for(File f : listOfFiles){
                 if(f.getName().equals(v.getText())){
                     player = MediaPlayer.create(this, Uri.parse(f.getPath()));
                     break;
